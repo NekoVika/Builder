@@ -1,0 +1,7 @@
+ansible_verbosity: 2
+connection: local
+gather_facts: no
+
+- name: Install animebot
+  pip:
+    name: git+https://github.com/NekoVika/AnimetariaDiscordBot.git

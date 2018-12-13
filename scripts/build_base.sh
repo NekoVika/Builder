@@ -1,0 +1,1 @@
+docker build --tag animetardia/base:latest ./builder/base
